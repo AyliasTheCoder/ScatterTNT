@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "scatter_tnt:blocks/small_stone_tnt_side"
+  }
+}

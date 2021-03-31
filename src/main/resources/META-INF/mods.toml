@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+license="All rights reserved"
+issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+modId="scatter_tnt" #mandatory
+version="1.0.0" #mandatory
+displayName="Scatter TNT" #mandatory
+author="Aylias"
+description='''
+A description!
+'''
+[[dependencies.examplemod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[34,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3]"
+    ordering="NONE"
+    side="BOTH"
